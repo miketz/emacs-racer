@@ -923,8 +923,8 @@ that many seconds (maybe float)."
   (set (make-local-variable 'completion-at-point-functions) nil)
   (add-hook 'completion-at-point-functions #'racer-complete-at-point))
 
-(define-obsolete-function-alias 'racer-turn-on-eldoc 'eldoc-mode)
-(define-obsolete-function-alias 'racer-activate 'racer-mode)
+(define-obsolete-function-alias 'racer-turn-on-eldoc 'eldoc-mode "1/16/2021")
+(define-obsolete-function-alias 'racer-activate 'racer-mode "1/16/2021")
 
 (provide 'racer)
 ;;; racer.el ends here
